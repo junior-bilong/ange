@@ -1,0 +1,46 @@
+/* css style */
+body {
+    background-image: url("IMG-20200727-WA0007.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+header.background {
+    transition-duration: 30s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 500px;
+    height: 300px;
+    background-image: url("IMG-20200727-WA0006.jpg");
+    position: fixed;
+    left: -490px;
+    top: 30%;
+    overflow: hidden;
+    box-shadow: -20px -20px 50px red, 20px 20px 50px red;
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    width: 100%;
+    left: 5%;
+    position: relative;
+}
+
+header.background:hover {
+    transition-duration: 30s;
+    width: 90%;
+    left: 5%;
+
+}
+
+em {
+    color: red;
+}
+
+i {
+    color: red;
+}
+  
