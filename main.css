@@ -26,7 +26,7 @@ h1 {
     text-shadow: 2px 2px 5px black;
     width: 100%;
     left: 5%;
-    position: relative;
+    position: absolute;
 }
 
 header.background:hover {
